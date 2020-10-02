@@ -17,6 +17,7 @@ nav.container{
   height: 80px;
   line-height: 80px;
   font-size: 14px;
+  background-color: white;
 }
 
 .logo-navbar img{
