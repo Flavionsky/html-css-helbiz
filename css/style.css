@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.ghost_align::before{
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+nav.container{
+  height: 80px;
+  line-height: 80px;
+  font-size: 14px;
+}
+
+.logo-navbar img{
+  width: 100px;
+}
+
+ul.navbar{
+  float: right;
+}
+
+ul.navbar li, ul.navbar-language li{
+  display: inline-block;
+}
+
+ul.navbar li a, ul.navbar-language li a{
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.hero-bg{
+  background-image: url("../img/hero-bg.jpg");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-container{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+.hero-center-text{
+  text-align: center;
+}
+.hero-center-text h1{
+  color: white;
+  font-size: 50px;
+}
+.hero-center-text p{
+  padding-top: 20px;
+  color: white;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.app-download img{
+  height: 60px;
+  padding-right: 5px;
+  float: left;
+}
