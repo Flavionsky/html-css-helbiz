@@ -11,10 +11,13 @@
   display: table;
   content: "";
 }
-
+.col-lg-md-xs-12{
+  width: calc((100% / 12) * 12);
+}
 [class*="col-"]{
   float: left;
 }
+
 @media screen and (min-width: 993px){
   .col-lg-1{
     width: calc((100% / 12) * 1);
