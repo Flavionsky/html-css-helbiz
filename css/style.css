@@ -329,4 +329,7 @@ footer .third-row img:first-child{
   footer .third-row{
     margin-left: 20%;
  }
+ footer hr {
+   width: 80%;
+ }
 }
